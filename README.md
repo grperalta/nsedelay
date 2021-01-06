@@ -111,8 +111,7 @@ You may view this Markdown file better at https://stackedit.io/editor
 If you find these codes useful, you can cite the manuscript as:
 *G. Peralta and J. S. Simon, Optimal Control for the Navier-Stokes
 Equation with Time Delay in the Convection: Analysis and Finite Element
-Approximations, and John Sebastian Simon, to appear in Journal of
-Mathematical Fluid Mechanics.*
+Approximations, to appear in Journal of Mathematical Fluid Mechanics.*
 
 Gilbert Peralta
 Department of Mathematics and Computer Science
