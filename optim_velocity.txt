@@ -1,0 +1,926 @@
+********************************************************************************
+
+Start of Run: 2020-07-08 11:50:59
+
+PYTHON VERSION: 3.7.6 (default, Jan  8 2020, 13:42:34) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] 
+PLATFORM: Darwin-18.6.0-x86_64-i386-64bit 
+PROCESSOR: i386
+VERSION: Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; 
+root:xnu-4903.261.4~2/RELEASE_X86_64 
+MAC VERSION: ('10.14.5', ('', '', ''), 'x86_64')
+
+
+Initial data loaded succesfully.
+Maximum norm of initial data: 0.775377115697
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 0.01
+Nt		 Number of time steps 			 101
+dt		 Temporal grid size 			 0.01
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-03
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 0.00e+00
+ocptol		 OCP tolerance 				 1.00e-05
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	TAYLOR_HOOD
+
+MESH DATA STRUCTURE
+	Number of Nodes: 5124
+	Number of Cells: 9922
+	Number of Edges: 15045
+	Number of Boundary Nodes: 324
+	Mesh Size: 0.034779
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (40338, 40338)
+	Density: 0.002202
+	Number of Nonzero Entries: 3583364
+	Elapsed time for matrix assembly:  4.813380e-01 seconds
+	Elapsed time for LU factorization: 2.569194e+00 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-05
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	2.05694849e+01 seconds
+	Adjoint solver elapsed time:	5.15069439e+01 seconds
+
+Iteration: 1
+	State solver elapsed time:	2.03301191e+01 seconds
+
+	Cost Value = 1.45245061e-02	Relative Error = 5.22800593e-01
+	Steplength = 1.00000000e+00	Optimality Res = 9.98744078e-02
+
+Iteration: 2
+	Adjoint solver elapsed time:	5.01059999e+01 seconds
+	State solver elapsed time:	2.03554211e+01 seconds
+
+	Cost Value = 1.04220098e-02	Relative Error = 3.93637737e-01
+	Steplength = 1.89862578e+00	Optimality Res = 5.69654273e-02
+
+Iteration: 3
+	Adjoint solver elapsed time:	5.02955191e+01 seconds
+	State solver elapsed time:	2.02974021e+01 seconds
+
+	Cost Value = 8.58297600e-03	Relative Error = 2.14265282e-01
+	Steplength = 2.90809762e+00	Optimality Res = 2.85219807e-02
+
+Iteration: 4
+	Adjoint solver elapsed time:	5.03225420e+01 seconds
+	State solver elapsed time:	2.02521207e+01 seconds
+
+	Cost Value = 7.39613425e-03	Relative Error = 1.60467848e-01
+	Steplength = 3.64225742e+00	Optimality Res = 1.95622683e-02
+
+Iteration: 5
+	Adjoint solver elapsed time:	5.02574792e+01 seconds
+	State solver elapsed time:	2.02961481e+01 seconds
+
+	Cost Value = 6.42705540e-03	Relative Error = 1.50781158e-01
+	Steplength = 1.05121799e+01	Optimality Res = 1.54864782e-02
+
+Iteration: 6
+	Adjoint solver elapsed time:	5.03281939e+01 seconds
+	State solver elapsed time:	2.02490048e+01 seconds
+
+	Cost Value = 5.74289910e-03	Relative Error = 1.19130823e-01
+	Steplength = 2.38299489e+00	Optimality Res = 3.17158028e-02
+
+Iteration: 7
+	Adjoint solver elapsed time:	5.03205462e+01 seconds
+	State solver elapsed time:	2.02209852e+01 seconds
+
+	Cost Value = 5.44055173e-03	Relative Error = 5.55729247e-02
+	Steplength = 1.64994590e+00	Optimality Res = 1.81703670e-02
+
+Iteration: 8
+	Adjoint solver elapsed time:	5.03471780e+01 seconds
+	State solver elapsed time:	2.02218969e+01 seconds
+
+	Cost Value = 5.36010015e-03	Relative Error = 1.50093418e-02
+	Steplength = 1.55927201e+00	Optimality Res = 7.11982657e-03
+
+Iteration: 9
+	Adjoint solver elapsed time:	5.02865894e+01 seconds
+	State solver elapsed time:	2.02046137e+01 seconds
+
+	Cost Value = 4.61637318e-03	Relative Error = 1.61106338e-01
+	Steplength = 2.18327630e+01	Optimality Res = 6.58076767e-03
+
+Iteration: 10
+	Adjoint solver elapsed time:	5.02996352e+01 seconds
+	State solver elapsed time:	2.02566111e+01 seconds
+
+	Cost Value = 4.40770104e-03	Relative Error = 4.73426247e-02
+	Steplength = 2.26694766e+01	Optimality Res = 4.09337920e-03
+
+Iteration: 11
+	Adjoint solver elapsed time:	5.06603489e+01 seconds
+	State solver elapsed time:	2.06731179e+01 seconds
+
+	Cost Value = 1.07338999e-02	Relative Error = 5.89366300e-01
+	Steplength = 2.10762192e+01	Optimality Res = 8.61986555e-03
+
+Iteration: 12
+	Adjoint solver elapsed time:	5.08881822e+01 seconds
+	State solver elapsed time:	2.02362881e+01 seconds
+
+	Cost Value = 4.40407508e-03	Relative Error = 1.43726542e+00
+	Steplength = 1.67037576e+00	Optimality Res = 8.98931548e-02
+
+Iteration: 13
+	Adjoint solver elapsed time:	5.03076560e+01 seconds
+	State solver elapsed time:	2.02661059e+01 seconds
+
+	Cost Value = 4.24108319e-03	Relative Error = 3.84316654e-02
+	Steplength = 1.57167870e+00	Optimality Res = 1.25739470e-02
+
+Iteration: 14
+	Adjoint solver elapsed time:	5.02883651e+01 seconds
+	State solver elapsed time:	2.02532840e+01 seconds
+
+	Cost Value = 4.17987942e-03	Relative Error = 1.46424734e-02
+	Steplength = 1.82143509e+00	Optimality Res = 6.47466027e-03
+
+Iteration: 15
+	Adjoint solver elapsed time:	5.03941979e+01 seconds
+	State solver elapsed time:	2.02618001e+01 seconds
+
+	Cost Value = 4.10982647e-03	Relative Error = 1.70452339e-02
+	Steplength = 5.81910096e+00	Optimality Res = 4.53358406e-03
+
+Iteration: 16
+	Adjoint solver elapsed time:	5.03466861e+01 seconds
+	State solver elapsed time:	2.02551839e+01 seconds
+
+	Cost Value = 4.08529331e-03	Relative Error = 6.00523795e-03
+	Steplength = 5.44038715e+00	Optimality Res = 2.19434133e-03
+
+Iteration: 17
+	Adjoint solver elapsed time:	5.03243613e+01 seconds
+	State solver elapsed time:	2.03148043e+01 seconds
+
+	Cost Value = 4.04384756e-03	Relative Error = 1.02490876e-02
+	Steplength = 2.06528060e+01	Optimality Res = 2.01057282e-03
+
+Iteration: 18
+	Adjoint solver elapsed time:	5.03370311e+01 seconds
+	State solver elapsed time:	2.02389789e+01 seconds
+
+	Cost Value = 4.00405830e-03	Relative Error = 9.93723207e-03
+	Steplength = 2.03840572e+00	Optimality Res = 6.79710559e-03
+
+Iteration: 19
+	Adjoint solver elapsed time:	5.05316749e+01 seconds
+	State solver elapsed time:	2.02661929e+01 seconds
+
+	Cost Value = 3.99542632e-03	Relative Error = 2.16046584e-03
+	Steplength = 1.76960784e+00	Optimality Res = 2.61483930e-03
+
+Iteration: 20
+	Adjoint solver elapsed time:	5.02561290e+01 seconds
+	State solver elapsed time:	2.03024549e+01 seconds
+
+	Cost Value = 3.99077791e-03	Relative Error = 1.16478797e-03
+	Steplength = 1.60643181e+00	Optimality Res = 1.66331068e-03
+
+Iteration: 21
+	Adjoint solver elapsed time:	5.05416992e+01 seconds
+	State solver elapsed time:	2.07328651e+01 seconds
+
+	Cost Value = 3.91982831e-03	Relative Error = 1.81001798e-02
+	Steplength = 2.89454064e+01	Optimality Res = 1.56046982e-03
+
+Iteration: 22
+	Adjoint solver elapsed time:	5.17172110e+01 seconds
+	State solver elapsed time:	2.03283451e+01 seconds
+
+	Cost Value = 3.90785062e-03	Relative Error = 3.06503325e-03
+	Steplength = 1.03050537e+01	Optimality Res = 1.74033929e-03
+
+Iteration: 23
+	Adjoint solver elapsed time:	5.06199951e+01 seconds
+	State solver elapsed time:	2.03209000e+01 seconds
+
+	Cost Value = 3.91879530e-03	Relative Error = 2.79286801e-03
+	Steplength = 7.03568359e+00	Optimality Res = 3.02195597e-03
+
+Iteration: 24
+	Adjoint solver elapsed time:	5.07107248e+01 seconds
+	State solver elapsed time:	2.02274449e+01 seconds
+
+	Cost Value = 3.88739658e-03	Relative Error = 8.07705453e-03
+	Steplength = 2.23814431e+00	Optimality Res = 5.82024505e-03
+
+Iteration: 25
+	Adjoint solver elapsed time:	5.04757869e+01 seconds
+	State solver elapsed time:	2.02837913e+01 seconds
+
+	Cost Value = 3.88011845e-03	Relative Error = 1.87575167e-03
+	Steplength = 1.90542175e+00	Optimality Res = 2.58814476e-03
+
+Iteration: 26
+	Adjoint solver elapsed time:	5.06117990e+01 seconds
+	State solver elapsed time:	2.02791362e+01 seconds
+
+	Cost Value = 3.87730676e-03	Relative Error = 7.25165333e-04
+	Steplength = 1.59176327e+00	Optimality Res = 1.31812043e-03
+
+Iteration: 27
+	Adjoint solver elapsed time:	5.07891159e+01 seconds
+	State solver elapsed time:	2.17662308e+01 seconds
+
+	Cost Value = 3.86534459e-03	Relative Error = 3.09472276e-03
+	Steplength = 8.03689571e+00	Optimality Res = 1.16722148e-03
+
+Iteration: 28
+	Adjoint solver elapsed time:	5.11467161e+01 seconds
+	State solver elapsed time:	2.02758772e+01 seconds
+
+	Cost Value = 3.85779285e-03	Relative Error = 1.95752826e-03
+	Steplength = 5.60142842e+00	Optimality Res = 1.13981487e-03
+
+Iteration: 29
+	Adjoint solver elapsed time:	5.04474659e+01 seconds
+	State solver elapsed time:	2.03611009e+01 seconds
+
+	Cost Value = 3.87222498e-03	Relative Error = 3.72708878e-03
+	Steplength = 4.03069193e+01	Optimality Res = 1.10548859e-03
+
+Iteration: 30
+	Adjoint solver elapsed time:	5.06338472e+01 seconds
+	State solver elapsed time:	2.02360570e+01 seconds
+
+	Cost Value = 3.80945916e-03	Relative Error = 1.64763073e-02
+	Steplength = 1.73441673e+00	Optimality Res = 8.80166057e-03
+
+Iteration: 31
+	Adjoint solver elapsed time:	5.04872758e+01 seconds
+	State solver elapsed time:	2.03605111e+01 seconds
+
+	Cost Value = 3.80645646e-03	Relative Error = 7.88842255e-04
+	Steplength = 1.59417204e+00	Optimality Res = 1.67789569e-03
+
+Iteration: 32
+	Adjoint solver elapsed time:	5.05347762e+01 seconds
+	State solver elapsed time:	2.02809553e+01 seconds
+
+	Cost Value = 3.80484080e-03	Relative Error = 4.24631985e-04
+	Steplength = 1.70061594e+00	Optimality Res = 9.67195474e-04
+
+Iteration: 33
+	Adjoint solver elapsed time:	5.04376750e+01 seconds
+	State solver elapsed time:	2.02887130e+01 seconds
+
+	Cost Value = 3.79343422e-03	Relative Error = 3.00692709e-03
+	Steplength = 1.49589377e+01	Optimality Res = 8.74644216e-04
+
+Iteration: 34
+	Adjoint solver elapsed time:	5.06092370e+01 seconds
+	State solver elapsed time:	2.02301610e+01 seconds
+
+	Cost Value = 3.78949095e-03	Relative Error = 1.04058031e-03
+	Steplength = 3.92760725e+00	Optimality Res = 1.07378924e-03
+
+Iteration: 35
+	Adjoint solver elapsed time:	5.05433080e+01 seconds
+	State solver elapsed time:	2.02426298e+01 seconds
+
+	Cost Value = 3.78463877e-03	Relative Error = 1.28207470e-03
+	Steplength = 6.95574037e+00	Optimality Res = 8.28122278e-04
+
+Iteration: 36
+	Adjoint solver elapsed time:	5.05469849e+01 seconds
+	State solver elapsed time:	2.05481689e+01 seconds
+
+	Cost Value = 3.78258139e-03	Relative Error = 5.43906708e-04
+	Steplength = 2.64382725e+00	Optimality Res = 8.87278217e-04
+
+Iteration: 37
+	Adjoint solver elapsed time:	5.03958311e+01 seconds
+	State solver elapsed time:	2.03114178e+01 seconds
+
+	Cost Value = 3.77738407e-03	Relative Error = 1.37590552e-03
+	Steplength = 8.64384390e+00	Optimality Res = 7.92153487e-04
+
+Iteration: 38
+	Adjoint solver elapsed time:	5.05191240e+01 seconds
+	State solver elapsed time:	2.03413000e+01 seconds
+
+	Cost Value = 3.77561225e-03	Relative Error = 4.69280939e-04
+	Steplength = 1.67609614e+00	Optimality Res = 1.18275821e-03
+
+Iteration: 39
+	Adjoint solver elapsed time:	5.06249199e+01 seconds
+	State solver elapsed time:	2.03255620e+01 seconds
+
+	Cost Value = 3.77400746e-03	Relative Error = 4.25221081e-04
+	Steplength = 2.54013378e+00	Optimality Res = 7.46064498e-04
+
+Iteration: 40
+	Adjoint solver elapsed time:	5.07942030e+01 seconds
+	State solver elapsed time:	2.02679191e+01 seconds
+
+	Cost Value = 3.77257518e-03	Relative Error = 3.79656614e-04
+	Steplength = 2.29211933e+00	Optimality Res = 7.36706570e-04
+
+Iteration: 41
+	Adjoint solver elapsed time:	5.05731771e+01 seconds
+	State solver elapsed time:	2.02110651e+01 seconds
+
+	Cost Value = 3.70885712e-03	Relative Error = 1.71799694e-02
+	Steplength = 1.44061808e+02	Optimality Res = 6.25447539e-04
+
+Iteration: 42
+	Adjoint solver elapsed time:	5.04558852e+01 seconds
+	State solver elapsed time:	2.03004789e+01 seconds
+
+	Cost Value = 3.78720012e-03	Relative Error = 2.06862582e-02
+	Steplength = 8.65102412e+00	Optimality Res = 2.28927072e-03
+
+Iteration: 43
+	Adjoint solver elapsed time:	5.05767491e+01 seconds
+	State solver elapsed time:	2.02992520e+01 seconds
+
+	Cost Value = 3.70296062e-03	Relative Error = 2.27492307e-02
+	Steplength = 1.59423629e+00	Optimality Res = 1.04426306e-02
+
+Iteration: 44
+	Adjoint solver elapsed time:	5.06967340e+01 seconds
+	State solver elapsed time:	2.02893789e+01 seconds
+
+	Cost Value = 3.70249949e-03	Relative Error = 1.24544731e-04
+	Steplength = 1.54300071e+00	Optimality Res = 6.57297748e-04
+
+Iteration: 45
+	Adjoint solver elapsed time:	5.04410360e+01 seconds
+	State solver elapsed time:	2.02347991e+01 seconds
+
+	Cost Value = 3.70205923e-03	Relative Error = 1.18924609e-04
+	Steplength = 2.34559711e+00	Optimality Res = 3.92370420e-04
+
+Iteration: 46
+	Adjoint solver elapsed time:	5.05628669e+01 seconds
+	State solver elapsed time:	2.02754350e+01 seconds
+
+	Cost Value = 3.70132807e-03	Relative Error = 1.97539778e-04
+	Steplength = 3.93117798e+00	Optimality Res = 3.88404268e-04
+
+Iteration: 47
+	Adjoint solver elapsed time:	5.05838499e+01 seconds
+	State solver elapsed time:	2.03017092e+01 seconds
+
+	Cost Value = 3.66923271e-03	Relative Error = 8.74715745e-03
+	Steplength = 3.21528444e+02	Optimality Res = 2.61976559e-04
+
+Iteration: 48
+	Adjoint solver elapsed time:	5.04137690e+01 seconds
+	State solver elapsed time:	2.03681901e+01 seconds
+
+	Cost Value = 3.70852282e-03	Relative Error = 1.05945432e-02
+	Steplength = 5.38091322e+00	Optimality Res = 3.11372772e-03
+
+Iteration: 49
+	Adjoint solver elapsed time:	5.06252961e+01 seconds
+	State solver elapsed time:	2.02781780e+01 seconds
+
+	Cost Value = 3.66167245e-03	Relative Error = 1.27947994e-02
+	Steplength = 1.55531794e+00	Optimality Res = 7.72645379e-03
+
+Iteration: 50
+	Adjoint solver elapsed time:	5.05264289e+01 seconds
+	State solver elapsed time:	2.03001869e+01 seconds
+
+	Cost Value = 3.66154698e-03	Relative Error = 3.42675149e-05
+	Steplength = 1.54727998e+00	Optimality Res = 2.75387599e-04
+
+Iteration: 51
+	Adjoint solver elapsed time:	5.05707064e+01 seconds
+	State solver elapsed time:	2.02415199e+01 seconds
+
+	Cost Value = 3.66139729e-03	Relative Error = 4.08820209e-05
+	Steplength = 2.94667631e+00	Optimality Res = 1.89769885e-04
+
+Iteration: 52
+	Adjoint solver elapsed time:	5.05271890e+01 seconds
+	State solver elapsed time:	2.02693291e+01 seconds
+
+	Cost Value = 3.66115955e-03	Relative Error = 6.49380425e-05
+	Steplength = 5.15562003e+00	Optimality Res = 1.84559735e-04
+
+Iteration: 53
+	Adjoint solver elapsed time:	5.10289342e+01 seconds
+	State solver elapsed time:	2.08970890e+01 seconds
+
+	Cost Value = 3.65872445e-03	Relative Error = 6.65557567e-04
+	Steplength = 1.43444758e+02	Optimality Res = 1.54713473e-04
+
+Iteration: 54
+	Adjoint solver elapsed time:	5.13648932e+01 seconds
+	State solver elapsed time:	2.03791449e+01 seconds
+
+	Cost Value = 3.65791286e-03	Relative Error = 2.21872552e-04
+	Steplength = 2.87988353e+00	Optimality Res = 1.56643492e-03
+
+Iteration: 55
+	Adjoint solver elapsed time:	5.11636620e+01 seconds
+	State solver elapsed time:	2.03712680e+01 seconds
+
+	Cost Value = 3.65654429e-03	Relative Error = 3.74279858e-04
+	Steplength = 1.55430905e+00	Optimality Res = 1.36900738e-03
+
+Iteration: 56
+	Adjoint solver elapsed time:	5.11103859e+01 seconds
+	State solver elapsed time:	2.03828731e+01 seconds
+
+	Cost Value = 3.65649833e-03	Relative Error = 1.25697191e-05
+	Steplength = 1.54152922e+00	Optimality Res = 1.44347584e-04
+
+Iteration: 57
+	Adjoint solver elapsed time:	5.11851571e+01 seconds
+	State solver elapsed time:	2.03803959e+01 seconds
+
+	Cost Value = 3.65594312e-03	Relative Error = 1.51866470e-04
+	Steplength = 2.16328550e+01	Optimality Res = 1.35103431e-04
+
+Iteration: 58
+	Adjoint solver elapsed time:	5.10381320e+01 seconds
+	State solver elapsed time:	2.03488240e+01 seconds
+
+	Cost Value = 3.65568883e-03	Relative Error = 6.95601918e-05
+	Steplength = 2.19420858e+01	Optimality Res = 1.16292151e-04
+
+Iteration: 59
+	Adjoint solver elapsed time:	5.12228177e+01 seconds
+	State solver elapsed time:	2.03768589e+01 seconds
+
+	Cost Value = 3.67846749e-03	Relative Error = 6.19243283e-03
+	Steplength = 3.57355962e+01	Optimality Res = 2.77393254e-04
+
+Iteration: 60
+	Adjoint solver elapsed time:	5.11229792e+01 seconds
+	State solver elapsed time:	2.04023662e+01 seconds
+
+	Cost Value = 3.65520346e-03	Relative Error = 6.36463409e-03
+	Steplength = 1.64763573e+00	Optimality Res = 5.43702586e-03
+
+Iteration: 61
+	Adjoint solver elapsed time:	5.09249821e+01 seconds
+	State solver elapsed time:	2.03685150e+01 seconds
+
+	Cost Value = 3.65488644e-03	Relative Error = 8.67369303e-05
+	Steplength = 1.60924705e+00	Optimality Res = 6.12710772e-04
+
+Iteration: 62
+	Adjoint solver elapsed time:	5.11958294e+01 seconds
+	State solver elapsed time:	2.04081230e+01 seconds
+
+	Cost Value = 3.65484690e-03	Relative Error = 1.08192124e-05
+	Steplength = 1.93691750e+00	Optimality Res = 2.40514830e-04
+
+Iteration: 63
+	Adjoint solver elapsed time:	5.12235420e+01 seconds
+	State solver elapsed time:	2.03657062e+01 seconds
+
+	Cost Value = 3.65481323e-03	Relative Error = 9.21292053e-06
+	Steplength = 3.71765389e+00	Optimality Res = 1.30327223e-04
+
+Iteration: 64
+	Adjoint solver elapsed time:	5.10860751e+01 seconds
+	State solver elapsed time:	2.03786790e+01 seconds
+
+	Cost Value = 3.65475574e-03	Relative Error = 1.57306825e-05
+	Steplength = 3.42141198e+00	Optimality Res = 9.57209584e-05
+
+Iteration: 65
+	Adjoint solver elapsed time:	5.12579608e+01 seconds
+	State solver elapsed time:	2.04018881e+01 seconds
+
+	Cost Value = 3.65372554e-03	Relative Error = 2.81958650e-04
+	Steplength = 8.14487750e+01	Optimality Res = 8.65035489e-05
+
+Iteration: 66
+	Adjoint solver elapsed time:	5.11404591e+01 seconds
+	State solver elapsed time:	2.04039862e+01 seconds
+
+	Cost Value = 3.65359119e-03	Relative Error = 3.67718410e-05
+	Steplength = 2.43342618e+00	Optimality Res = 4.23599718e-04
+
+Iteration: 67
+	Adjoint solver elapsed time:	5.11039732e+01 seconds
+	State solver elapsed time:	2.03830791e+01 seconds
+
+	Cost Value = 3.65351358e-03	Relative Error = 2.12422145e-05
+	Steplength = 1.67023376e+00	Optimality Res = 2.50783253e-04
+
+Iteration: 68
+	Adjoint solver elapsed time:	5.11699481e+01 seconds
+	State solver elapsed time:	2.03838563e+01 seconds
+
+	Cost Value = 3.65348645e-03	Relative Error = 7.42643273e-06
+	Steplength = 1.55593057e+00	Optimality Res = 9.27121943e-05
+
+Iteration: 69
+	Adjoint solver elapsed time:	5.11345479e+01 seconds
+	State solver elapsed time:	2.04045022e+01 seconds
+
+	Cost Value = 3.65322258e-03	Relative Error = 7.22280125e-05
+	Steplength = 1.77519456e+01	Optimality Res = 8.55842756e-05
+
+Iteration: 70
+	Adjoint solver elapsed time:	5.13559058e+01 seconds
+	State solver elapsed time:	2.04652431e+01 seconds
+
+	Cost Value = 3.65311733e-03	Relative Error = 2.88118797e-05
+	Steplength = 9.09599316e+00	Optimality Res = 8.56698126e-05
+
+Iteration: 71
+	Adjoint solver elapsed time:	5.12399931e+01 seconds
+	State solver elapsed time:	2.04683793e+01 seconds
+
+	Cost Value = 3.65331338e-03	Relative Error = 5.36647527e-05
+	Steplength = 3.08808402e+01	Optimality Res = 8.63438824e-05
+
+Iteration: 72
+	Adjoint solver elapsed time:	5.13613839e+01 seconds
+	State solver elapsed time:	2.04307301e+01 seconds
+
+	Cost Value = 3.65269534e-03	Relative Error = 1.69202935e-04
+	Steplength = 1.57339671e+00	Optimality Res = 8.41391092e-04
+
+Iteration: 73
+	Adjoint solver elapsed time:	5.12238431e+01 seconds
+	State solver elapsed time:	2.05543752e+01 seconds
+
+	Cost Value = 3.65268572e-03	Relative Error = 2.63348586e-06
+	Steplength = 1.55937258e+00	Optimality Res = 9.69371472e-05
+
+Iteration: 74
+	Adjoint solver elapsed time:	5.11568081e+01 seconds
+	State solver elapsed time:	2.03993621e+01 seconds
+
+	Cost Value = 3.65266757e-03	Relative Error = 4.96760183e-06
+	Steplength = 2.20937693e+00	Optimality Res = 7.83575250e-05
+
+Iteration: 75
+	Adjoint solver elapsed time:	5.11792400e+01 seconds
+	State solver elapsed time:	2.03963389e+01 seconds
+
+	Cost Value = 3.65242908e-03	Relative Error = 6.52963203e-05
+	Steplength = 2.44603299e+01	Optimality Res = 7.18524721e-05
+
+Iteration: 76
+	Adjoint solver elapsed time:	5.11174591e+01 seconds
+	State solver elapsed time:	2.04187810e+01 seconds
+
+	Cost Value = 3.65232534e-03	Relative Error = 2.84047884e-05
+	Steplength = 5.14172457e+00	Optimality Res = 9.05510353e-05
+
+Iteration: 77
+	Adjoint solver elapsed time:	5.11344972e+01 seconds
+	State solver elapsed time:	2.03857131e+01 seconds
+
+	Cost Value = 3.65226916e-03	Relative Error = 1.53826097e-05
+	Steplength = 8.83355790e+00	Optimality Res = 7.61682928e-05
+
+Iteration: 78
+	Adjoint solver elapsed time:	5.12002141e+01 seconds
+	State solver elapsed time:	2.04242578e+01 seconds
+
+	Cost Value = 3.65222295e-03	Relative Error = 1.26504020e-05
+	Steplength = 2.44999830e+00	Optimality Res = 1.07978641e-04
+
+Iteration: 79
+	Adjoint solver elapsed time:	5.16417012e+01 seconds
+	State solver elapsed time:	2.06249468e+01 seconds
+
+	Cost Value = 3.65218055e-03	Relative Error = 1.16104958e-05
+	Steplength = 3.27576753e+00	Optimality Res = 7.77901904e-05
+
+Iteration: 80
+	Adjoint solver elapsed time:	5.16203780e+01 seconds
+	State solver elapsed time:	2.04634798e+01 seconds
+
+	Cost Value = 3.65216468e-03	Relative Error = 4.34659974e-06
+	Steplength = 1.58904010e+00	Optimality Res = 7.91410633e-05
+
+Iteration: 81
+	Adjoint solver elapsed time:	5.12755470e+01 seconds
+	State solver elapsed time:	2.03996792e+01 seconds
+
+	Cost Value = 3.65210431e-03	Relative Error = 1.65285581e-05
+	Steplength = 5.66607609e+00	Optimality Res = 6.73546778e-05
+
+Iteration: 82
+	Adjoint solver elapsed time:	5.12537601e+01 seconds
+	State solver elapsed time:	2.03979030e+01 seconds
+
+	Cost Value = 3.65206236e-03	Relative Error = 1.14883960e-05
+	Steplength = 4.25675258e+00	Optimality Res = 6.71506613e-05
+
+Iteration: 83
+	Adjoint solver elapsed time:	5.12604251e+01 seconds
+	State solver elapsed time:	2.04519873e+01 seconds
+
+	Cost Value = 3.65136764e-03	Relative Error = 1.90262296e-04
+	Steplength = 1.36978692e+02	Optimality Res = 5.83967250e-05
+
+Iteration: 84
+	Adjoint solver elapsed time:	5.30915079e+01 seconds
+	State solver elapsed time:	2.04945071e+01 seconds
+
+	Cost Value = 3.65071884e-03	Relative Error = 1.77716616e-04
+	Steplength = 1.67889345e+00	Optimality Res = 9.84115070e-04
+
+Iteration: 85
+	Adjoint solver elapsed time:	5.25797262e+01 seconds
+	State solver elapsed time:	2.03259518e+01 seconds
+
+	Cost Value = 3.65069353e-03	Relative Error = 6.93505901e-06
+	Steplength = 1.54985721e+00	Optimality Res = 1.08553016e-04
+
+Iteration: 86
+	Adjoint solver elapsed time:	5.31235461e+01 seconds
+	State solver elapsed time:	2.03660650e+01 seconds
+
+	Cost Value = 3.65068202e-03	Relative Error = 3.15265279e-06
+	Steplength = 1.54187766e+00	Optimality Res = 5.33382424e-05
+
+Iteration: 87
+	Adjoint solver elapsed time:	5.11369810e+01 seconds
+	State solver elapsed time:	2.03461819e+01 seconds
+
+	Cost Value = 3.64882040e-03	Relative Error = 5.10197979e-04
+	Steplength = 2.66929194e+02	Optimality Res = 3.89970658e-05
+
+Iteration: 88
+	Adjoint solver elapsed time:	5.10994830e+01 seconds
+	State solver elapsed time:	2.04088521e+01 seconds
+
+	Cost Value = 3.65085510e-03	Relative Error = 5.57321132e-04
+	Steplength = 4.22311686e+01	Optimality Res = 8.33681547e-05
+
+Iteration: 89
+	Adjoint solver elapsed time:	5.10688710e+01 seconds
+	State solver elapsed time:	2.03350511e+01 seconds
+
+	Cost Value = 3.64886962e-03	Relative Error = 5.44134577e-04
+	Steplength = 2.41338950e+00	Optimality Res = 1.60568370e-03
+
+Iteration: 90
+	Adjoint solver elapsed time:	5.11347289e+01 seconds
+	State solver elapsed time:	2.03538849e+01 seconds
+
+	Cost Value = 3.64860759e-03	Relative Error = 7.18157427e-05
+	Steplength = 1.89978843e+00	Optimality Res = 4.79705061e-04
+
+Iteration: 91
+	Adjoint solver elapsed time:	5.10966599e+01 seconds
+	State solver elapsed time:	2.03441911e+01 seconds
+
+	Cost Value = 3.64860599e-03	Relative Error = 4.39605037e-07
+	Steplength = 1.85293945e+00	Optimality Res = 7.47837796e-05
+
+Iteration: 92
+	Adjoint solver elapsed time:	5.10309188e+01 seconds
+	State solver elapsed time:	2.03323081e+01 seconds
+
+	Cost Value = 3.64859906e-03	Relative Error = 1.89963605e-06
+	Steplength = 1.72416316e+00	Optimality Res = 4.14107722e-05
+
+Iteration: 93
+	Adjoint solver elapsed time:	5.10422838e+01 seconds
+	State solver elapsed time:	2.18991532e+01 seconds
+
+	Cost Value = 3.64856588e-03	Relative Error = 9.09267322e-06
+	Steplength = 9.31340595e+00	Optimality Res = 3.56993822e-05
+
+Iteration: 94
+	Adjoint solver elapsed time:	5.15795970e+01 seconds
+	State solver elapsed time:	2.03350949e+01 seconds
+
+	Cost Value = 3.64853485e-03	Relative Error = 8.50427094e-06
+	Steplength = 5.66794043e+00	Optimality Res = 3.35812562e-05
+
+Iteration: 95
+	Adjoint solver elapsed time:	5.09955709e+01 seconds
+	State solver elapsed time:	2.03475020e+01 seconds
+
+	Cost Value = 3.64852167e-03	Relative Error = 3.61252026e-06
+	Steplength = 1.63618391e+01	Optimality Res = 3.58718496e-05
+
+Iteration: 96
+	Adjoint solver elapsed time:	5.08715298e+01 seconds
+	State solver elapsed time:	2.03450413e+01 seconds
+
+	Cost Value = 3.64847502e-03	Relative Error = 1.27871943e-05
+	Steplength = 1.64012004e+00	Optimality Res = 1.75901172e-04
+
+Iteration: 97
+	Adjoint solver elapsed time:	5.10793879e+01 seconds
+	State solver elapsed time:	2.02920139e+01 seconds
+
+	Cost Value = 3.64846629e-03	Relative Error = 2.39243473e-06
+	Steplength = 1.63144768e+00	Optimality Res = 3.61976427e-05
+
+Iteration: 98
+	Adjoint solver elapsed time:	5.09058480e+01 seconds
+	State solver elapsed time:	2.03119991e+01 seconds
+
+	Cost Value = 3.64845632e-03	Relative Error = 2.73400188e-06
+	Steplength = 2.15822373e+00	Optimality Res = 3.09680635e-05
+
+Iteration: 99
+	Adjoint solver elapsed time:	5.11264541e+01 seconds
+	State solver elapsed time:	2.04221792e+01 seconds
+
+	Cost Value = 3.64829377e-03	Relative Error = 4.45527271e-05
+	Steplength = 4.12911929e+01	Optimality Res = 2.86869082e-05
+
+Iteration: 100
+	Adjoint solver elapsed time:	5.10710332e+01 seconds
+	State solver elapsed time:	2.05676692e+01 seconds
+
+	Cost Value = 3.64829541e-03	Relative Error = 4.47506810e-07
+	Steplength = 4.93742324e+00	Optimality Res = 4.24342405e-05
+
+Iteration: 101
+	Adjoint solver elapsed time:	5.10616341e+01 seconds
+	State solver elapsed time:	2.06458509e+01 seconds
+
+	Cost Value = 3.64826567e-03	Relative Error = 8.15098447e-06
+	Steplength = 5.46102428e+00	Optimality Res = 3.60207789e-05
+
+Iteration: 102
+	Adjoint solver elapsed time:	5.12118788e+01 seconds
+	State solver elapsed time:	2.08019462e+01 seconds
+
+	Cost Value = 3.64826163e-03	Relative Error = 1.10667737e-06
+	Steplength = 1.90597054e+00	Optimality Res = 4.97301127e-05
+
+Iteration: 103
+	Adjoint solver elapsed time:	5.14459481e+01 seconds
+	State solver elapsed time:	2.09508181e+01 seconds
+
+	Cost Value = 3.64825421e-03	Relative Error = 2.03443282e-06
+	Steplength = 2.33235532e+00	Optimality Res = 2.98173265e-05
+
+Iteration: 104
+	Adjoint solver elapsed time:	5.13846262e+01 seconds
+	State solver elapsed time:	2.11069968e+01 seconds
+
+	Cost Value = 3.64824922e-03	Relative Error = 1.36678586e-06
+	Steplength = 1.65653962e+00	Optimality Res = 2.80817319e-05
+
+Iteration: 105
+	Adjoint solver elapsed time:	5.12382371e+01 seconds
+	State solver elapsed time:	2.12944820e+01 seconds
+
+	Cost Value = 3.64811006e-03	Relative Error = 3.81458171e-05
+	Steplength = 4.27535731e+01	Optimality Res = 2.64006319e-05
+
+Iteration: 106
+	Adjoint solver elapsed time:	5.14923489e+01 seconds
+	State solver elapsed time:	2.15120091e+01 seconds
+
+	Cost Value = 3.64808229e-03	Relative Error = 7.61418046e-06
+	Steplength = 8.94903051e+00	Optimality Res = 2.99571072e-05
+
+Iteration: 107
+	Adjoint solver elapsed time:	5.16840801e+01 seconds
+	State solver elapsed time:	2.16546209e+01 seconds
+
+	Cost Value = 3.64808589e-03	Relative Error = 9.88216867e-07
+	Steplength = 6.89947938e+00	Optimality Res = 6.98441768e-05
+
+Iteration: 108
+	Adjoint solver elapsed time:	5.17979560e+01 seconds
+	State solver elapsed time:	2.17310410e+01 seconds
+
+	Cost Value = 3.64805784e-03	Relative Error = 7.69040295e-06
+	Steplength = 1.54798251e+00	Optimality Res = 2.26193416e-04
+
+Iteration: 109
+	Adjoint solver elapsed time:	5.15527287e+01 seconds
+	State solver elapsed time:	2.18816369e+01 seconds
+
+	Cost Value = 3.64805099e-03	Relative Error = 1.87549275e-06
+	Steplength = 1.55058481e+00	Optimality Res = 2.76664428e-05
+
+Iteration: 110
+	Adjoint solver elapsed time:	5.20311470e+01 seconds
+	State solver elapsed time:	2.20836828e+01 seconds
+
+	Cost Value = 3.64804385e-03	Relative Error = 1.95815708e-06
+	Steplength = 1.99234487e+00	Optimality Res = 2.57000925e-05
+
+Iteration: 111
+	Adjoint solver elapsed time:	5.23452978e+01 seconds
+	State solver elapsed time:	2.20731840e+01 seconds
+
+	Cost Value = 3.64773571e-03	Relative Error = 8.44736463e-05
+	Steplength = 9.76952206e+01	Optimality Res = 2.28869382e-05
+
+Iteration: 112
+	Adjoint solver elapsed time:	5.24990039e+01 seconds
+	State solver elapsed time:	2.21229990e+01 seconds
+
+	Cost Value = 3.64775960e-03	Relative Error = 6.54890916e-06
+	Steplength = 6.53690927e+00	Optimality Res = 5.28358201e-05
+
+Iteration: 113
+	Adjoint solver elapsed time:	5.23981771e+01 seconds
+	State solver elapsed time:	2.21445279e+01 seconds
+
+	Cost Value = 3.64772492e-03	Relative Error = 9.50755114e-06
+	Steplength = 3.83709334e+00	Optimality Res = 5.65485739e-05
+
+Iteration: 114
+	Adjoint solver elapsed time:	5.26782410e+01 seconds
+	State solver elapsed time:	2.22450039e+01 seconds
+
+	Cost Value = 3.64771756e-03	Relative Error = 2.01823559e-06
+	Steplength = 2.85820896e+00	Optimality Res = 3.01906055e-05
+
+Iteration: 115
+	Adjoint solver elapsed time:	5.27259719e+01 seconds
+	State solver elapsed time:	2.22973471e+01 seconds
+
+	Cost Value = 3.64771170e-03	Relative Error = 1.60755955e-06
+	Steplength = 3.76669816e+00	Optimality Res = 2.63819555e-05
+
+Iteration: 116
+	Adjoint solver elapsed time:	5.27676480e+01 seconds
+	State solver elapsed time:	2.23062880e+01 seconds
+
+	Cost Value = 3.64770576e-03	Relative Error = 1.62700623e-06
+	Steplength = 1.52705999e+00	Optimality Res = 3.10262987e-05
+
+Iteration: 117
+	Adjoint solver elapsed time:	5.26779079e+01 seconds
+	State solver elapsed time:	2.23075600e+01 seconds
+
+	Cost Value = 3.64769835e-03	Relative Error = 2.03288470e-06
+	Steplength = 2.97489353e+00	Optimality Res = 2.15003757e-05
+
+Iteration: 118
+	Adjoint solver elapsed time:	5.29516501e+01 seconds
+	State solver elapsed time:	2.27717850e+01 seconds
+
+	Cost Value = 3.64768660e-03	Relative Error = 3.22041402e-06
+	Steplength = 4.69548394e+00	Optimality Res = 2.13782342e-05
+
+Iteration: 119
+	Adjoint solver elapsed time:	5.31453917e+01 seconds
+	State solver elapsed time:	2.23979337e+01 seconds
+
+	Cost Value = 3.64658592e-03	Relative Error = 3.01837489e-04
+	Steplength = 5.53893478e+02	Optimality Res = 9.53636934e-06
+
+Iteration: 120
+	Adjoint solver elapsed time:	5.31753139e+01 seconds
+	State solver elapsed time:	2.23158238e+01 seconds
+
+	Cost Value = 3.64645606e-03	Relative Error = 3.56146772e-05
+	Steplength = 2.45574864e+00	Optimality Res = 4.48316919e-04
+
+Iteration: 121
+	Adjoint solver elapsed time:	5.27839601e+01 seconds
+	State solver elapsed time:	2.23845220e+01 seconds
+
+	Cost Value = 3.64640930e-03	Relative Error = 1.28210432e-05
+	Steplength = 1.55168108e+00	Optimality Res = 2.62642197e-04
+
+Iteration: 122
+	Adjoint solver elapsed time:	5.33221109e+01 seconds
+	State solver elapsed time:	2.22347031e+01 seconds
+
+	Cost Value = 3.64640894e-03	Relative Error = 9.94566285e-08
+	Steplength = 1.54872643e+00	Optimality Res = 1.09855892e-05
+
+Iteration: 123
+	Adjoint solver elapsed time:	5.25939140e+01 seconds
+	State solver elapsed time:	2.21911900e+01 seconds
+
+	Cost Value = 3.64640731e-03	Relative Error = 4.48149318e-07
+	Steplength = 2.45011557e+00	Optimality Res = 6.58029043e-06
+
+Optimal solution found.
+	Elapsed time is 8878.50466275 seconds.
+                                                                                
+
+
+End of Run: 2020-07-08 14:20:20
+
+********************************************************************************

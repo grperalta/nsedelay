@@ -1,0 +1,909 @@
+********************************************************************************
+
+Start of Run: 2020-07-06 13:59:34
+
+PYTHON VERSION: 3.7.6 (default, Jan  8 2020, 13:42:34) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] 
+PLATFORM: Darwin-18.6.0-x86_64-i386-64bit 
+PROCESSOR: i386
+VERSION: Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; 
+root:xnu-4903.261.4~2/RELEASE_X86_64 
+MAC VERSION: ('10.14.5', ('', '', ''), 'x86_64')
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 1.00
+Nt		 Number of time steps 			 11
+dt		 Temporal grid size 			 0.1
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-01
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 1.00e+00
+ocptol		 OCP tolerance 				 1.00e-06
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	P1_BUBBLE
+
+MESH DATA STRUCTURE
+	Number of Nodes: 121
+	Number of Cells: 200
+	Number of Edges: 320
+	Number of Boundary Nodes: 40
+	Mesh Size: 0.141421
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (642, 642)
+	Density: 0.068371
+	Number of Nonzero Entries: 28180
+	Elapsed time for matrix assembly:  2.775884e-02 seconds
+	Elapsed time for LU factorization: 3.106117e-03 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-06
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	9.54558849e-02 seconds
+	Adjoint solver elapsed time:	2.36804008e-01 seconds
+
+Iteration: 1
+	State solver elapsed time:	1.00569010e-01 seconds
+
+	Cost Value = 3.21040403e+01	Relative Error = 2.79550933e-02
+	Steplength = 1.00000000e+00	Optimality Res = 8.78706234e-01
+
+Iteration: 2
+	Adjoint solver elapsed time:	2.20273018e-01 seconds
+	State solver elapsed time:	9.37750340e-02 seconds
+
+	Cost Value = 2.89288508e+01	Relative Error = 1.09758578e-01
+	Steplength = 8.54415904e+00	Optimality Res = 1.25504593e-01
+
+Iteration: 3
+	Adjoint solver elapsed time:	2.22173929e-01 seconds
+	State solver elapsed time:	9.55562592e-02 seconds
+
+	Cost Value = 2.89286105e+01	Relative Error = 8.30882982e-06
+	Steplength = 8.54431259e+00	Optimality Res = 1.06367578e-03
+
+Iteration: 4
+	Adjoint solver elapsed time:	2.24909067e-01 seconds
+	State solver elapsed time:	9.46829319e-02 seconds
+
+	Cost Value = 2.89286094e+01	Relative Error = 3.70237808e-08
+	Steplength = 8.88339957e+00	Optimality Res = 4.07350494e-05
+
+Iteration: 5
+	Adjoint solver elapsed time:	2.20524073e-01 seconds
+	State solver elapsed time:	9.45520401e-02 seconds
+
+	Cost Value = 2.89286093e+01	Relative Error = 1.55540038e-09
+	Steplength = 9.37987262e+00	Optimality Res = 1.38333638e-06
+
+Iteration: 6
+	Adjoint solver elapsed time:	2.21970797e-01 seconds
+	State solver elapsed time:	9.47980881e-02 seconds
+
+	Cost Value = 2.89286093e+01	Relative Error = 5.69891019e-11
+	Steplength = 9.65662518e+00	Optimality Res = 2.43657573e-08
+
+Optimal solution found.
+	Elapsed time is 2.02299809 seconds.
+                                                                                
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 1.00
+Nt		 Number of time steps 			 41
+dt		 Temporal grid size 			 0.025
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-01
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 1.00e+00
+ocptol		 OCP tolerance 				 1.00e-06
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	P1_BUBBLE
+
+MESH DATA STRUCTURE
+	Number of Nodes: 441
+	Number of Cells: 800
+	Number of Edges: 1240
+	Number of Boundary Nodes: 80
+	Mesh Size: 0.070711
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (2482, 2482)
+	Density: 0.021106
+	Number of Nonzero Entries: 130020
+	Elapsed time for matrix assembly:  3.004289e-02 seconds
+	Elapsed time for LU factorization: 2.682805e-02 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-06
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	6.08825922e-01 seconds
+	Adjoint solver elapsed time:	1.30674314e+00 seconds
+
+Iteration: 1
+	State solver elapsed time:	5.58382750e-01 seconds
+
+	Cost Value = 3.24265692e+01	Relative Error = 3.34982041e-02
+	Steplength = 1.00000000e+00	Optimality Res = 9.67066278e-01
+
+Iteration: 2
+	Adjoint solver elapsed time:	1.40887284e+00 seconds
+	State solver elapsed time:	6.73539162e-01 seconds
+
+	Cost Value = 2.86372121e+01	Relative Error = 1.32322836e-01
+	Steplength = 8.44424474e+00	Optimality Res = 1.47374683e-01
+
+Iteration: 3
+	Adjoint solver elapsed time:	1.33888268e+00 seconds
+	State solver elapsed time:	5.91914892e-01 seconds
+
+	Cost Value = 2.86366562e+01	Relative Error = 1.94124331e-05
+	Steplength = 8.44452584e+00	Optimality Res = 1.72065262e-03
+
+Iteration: 4
+	Adjoint solver elapsed time:	1.42358398e+00 seconds
+	State solver elapsed time:	6.48622751e-01 seconds
+
+	Cost Value = 2.86366522e+01	Relative Error = 1.40595084e-07
+	Steplength = 9.05606707e+00	Optimality Res = 8.16528553e-05
+
+Iteration: 5
+	Adjoint solver elapsed time:	1.40506506e+00 seconds
+	State solver elapsed time:	5.75661898e-01 seconds
+
+	Cost Value = 2.86366521e+01	Relative Error = 1.54891340e-09
+	Steplength = 9.35893212e+00	Optimality Res = 2.31806832e-06
+
+Iteration: 6
+	Adjoint solver elapsed time:	1.38663292e+00 seconds
+	State solver elapsed time:	7.43130922e-01 seconds
+
+	Cost Value = 2.86366521e+01	Relative Error = 5.08380311e-11
+	Steplength = 9.54047529e+00	Optimality Res = 4.77483940e-08
+
+Optimal solution found.
+	Elapsed time is 12.69726706 seconds.
+                                                                                
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 1.00
+Nt		 Number of time steps 			 161
+dt		 Temporal grid size 			 0.00625
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-01
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 1.00e+00
+ocptol		 OCP tolerance 				 1.00e-06
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	P1_BUBBLE
+
+MESH DATA STRUCTURE
+	Number of Nodes: 1681
+	Number of Cells: 3200
+	Number of Edges: 4880
+	Number of Boundary Nodes: 160
+	Mesh Size: 0.035355
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (9762, 9762)
+	Density: 0.005844
+	Number of Nonzero Entries: 556900
+	Elapsed time for matrix assembly:  6.131196e-02 seconds
+	Elapsed time for LU factorization: 1.828341e-01 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-06
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	5.57210994e+00 seconds
+	Adjoint solver elapsed time:	1.36003561e+01 seconds
+
+Iteration: 1
+	State solver elapsed time:	6.17492914e+00 seconds
+
+	Cost Value = 3.25941134e+01	Relative Error = 3.51101508e-02
+	Steplength = 1.00000000e+00	Optimality Res = 9.92726704e-01
+
+Iteration: 2
+	Adjoint solver elapsed time:	1.43357520e+01 seconds
+	State solver elapsed time:	6.77233887e+00 seconds
+
+	Cost Value = 2.86188727e+01	Relative Error = 1.38902770e-01
+	Steplength = 8.41424062e+00	Optimality Res = 1.54129453e-01
+
+Iteration: 3
+	Adjoint solver elapsed time:	1.34108958e+01 seconds
+	State solver elapsed time:	5.71072984e+00 seconds
+
+	Cost Value = 2.86182031e+01	Relative Error = 2.33968950e-05
+	Steplength = 8.41455459e+00	Optimality Res = 1.91755173e-03
+
+Iteration: 4
+	Adjoint solver elapsed time:	1.28282468e+01 seconds
+	State solver elapsed time:	5.86493182e+00 seconds
+
+	Cost Value = 2.86181968e+01	Relative Error = 2.21574721e-07
+	Steplength = 9.14869343e+00	Optimality Res = 9.44041479e-05
+
+Iteration: 5
+	Adjoint solver elapsed time:	1.42389338e+01 seconds
+	State solver elapsed time:	6.26671314e+00 seconds
+
+	Cost Value = 2.86181967e+01	Relative Error = 1.52384523e-09
+	Steplength = 9.46631422e+00	Optimality Res = 2.65393915e-06
+
+Iteration: 6
+	Adjoint solver elapsed time:	1.41916530e+01 seconds
+	State solver elapsed time:	6.05523300e+00 seconds
+
+	Cost Value = 2.86181967e+01	Relative Error = 2.88145469e-11
+	Steplength = 9.65897276e+00	Optimality Res = 5.56335634e-08
+
+Optimal solution found.
+	Elapsed time is 125.59333420 seconds.
+                                                                                
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 1.00
+Nt		 Number of time steps 			 641
+dt		 Temporal grid size 			 0.0015625
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-01
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 1.00e+00
+ocptol		 OCP tolerance 				 1.00e-06
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	P1_BUBBLE
+
+MESH DATA STRUCTURE
+	Number of Nodes: 6561
+	Number of Cells: 12800
+	Number of Edges: 19360
+	Number of Boundary Nodes: 320
+	Mesh Size: 0.017678
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (38722, 38722)
+	Density: 0.001536
+	Number of Nonzero Entries: 2303460
+	Elapsed time for matrix assembly:  2.488580e-01 seconds
+	Elapsed time for LU factorization: 1.774881e+00 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-06
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	1.15419828e+02 seconds
+	Adjoint solver elapsed time:	2.30813739e+02 seconds
+
+Iteration: 1
+	State solver elapsed time:	1.17012953e+02 seconds
+
+	Cost Value = 3.26446275e+01	Relative Error = 3.55415841e-02
+	Steplength = 1.00000000e+00	Optimality Res = 9.99611945e-01
+
+Iteration: 2
+	Adjoint solver elapsed time:	2.29334231e+02 seconds
+	State solver elapsed time:	1.11829466e+02 seconds
+
+	Cost Value = 2.86190279e+01	Relative Error = 1.40661645e-01
+	Steplength = 8.40605505e+00	Optimality Res = 1.55979109e-01
+
+Iteration: 3
+	Adjoint solver elapsed time:	2.31077032e+02 seconds
+	State solver elapsed time:	1.15241600e+02 seconds
+
+	Cost Value = 2.86183467e+01	Relative Error = 2.38024225e-05
+	Steplength = 8.40636857e+00	Optimality Res = 1.94279397e-03
+
+Iteration: 4
+	Adjoint solver elapsed time:	2.33779000e+02 seconds
+	State solver elapsed time:	1.20688596e+02 seconds
+
+	Cost Value = 2.86183400e+01	Relative Error = 2.36832840e-07
+	Steplength = 9.16515906e+00	Optimality Res = 9.59356731e-05
+
+Iteration: 5
+	Adjoint solver elapsed time:	2.30550367e+02 seconds
+	State solver elapsed time:	1.26158789e+02 seconds
+
+	Cost Value = 2.86183399e+01	Relative Error = 1.50286842e-09
+	Steplength = 9.48320116e+00	Optimality Res = 2.68731135e-06
+
+Iteration: 6
+	Adjoint solver elapsed time:	2.61955538e+02 seconds
+	State solver elapsed time:	1.36864176e+02 seconds
+
+	Cost Value = 2.86183399e+01	Relative Error = 2.47304071e-11
+	Steplength = 9.68140775e+00	Optimality Res = 5.63524928e-08
+
+Optimal solution found.
+	Elapsed time is 2277.91163802 seconds.
+                                                                                
+
+                                                                                
+			L2-ERROR ON OPTIMAL STATE
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	5.5099482788e-02
+0.0250000000	0.0707106781	1.4201959885e-02	1.9559487396e+00
+0.0062500000	0.0353553391	3.5700718471e-03	1.9920650232e+00
+0.0015625000	0.0176776695	8.9242692637e-04	2.0001471601e+00
+                                                                                
+                                                                                
+			L2-ERROR ON OPTIMAL ADJOINT
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	4.5680609515e-02
+0.0250000000	0.0707106781	1.0817734153e-02	2.0781835520e+00
+0.0062500000	0.0353553391	2.6639216128e-03	2.0217748126e+00
+0.0015625000	0.0176776695	6.6259196921e-04	2.0073590082e+00
+                                                                                
+                                                                                
+			L2-ERROR ON OPTIMAL CONTROL
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	3.8169135776e-01
+0.0250000000	0.0707106781	1.0327266745e-01	1.8859480462e+00
+0.0062500000	0.0353553391	2.6333599545e-02	1.9714818331e+00
+0.0015625000	0.0176776695	6.6069796755e-03	1.9948419253e+00
+                                                                                
+                                                                                
+			L2(H1)-ERROR ON OPTIMAL STATE
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	1.8150984577e+00
+0.0250000000	0.0707106781	9.1920711632e-01	9.8158593526e-01
+0.0062500000	0.0353553391	4.6107713181e-01	9.9538185338e-01
+0.0015625000	0.0176776695	2.3072936221e-01	9.9880650322e-01
+                                                                                
+                                                                                
+			L2(H1)-ERROR ON OPTIMAL ADJOINT
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	1.0987816310e+00
+0.0250000000	0.0707106781	4.0949149406e-01	1.4239993076e+00
+0.0062500000	0.0353553391	1.8198154743e-01	1.1700413132e+00
+0.0015625000	0.0176776695	8.7833455148e-02	1.0509497094e+00
+                                                                                
+                                                                                
+			L2(H1)-ERROR ON OPTIMAL CONTROL
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	7.3954822074e+00
+0.0250000000	0.0707106781	3.5414393189e+00	1.0623083959e+00
+0.0062500000	0.0353553391	1.7452711828e+00	1.0208846006e+00
+0.0015625000	0.0176776695	8.6881254676e-01	1.0063343791e+00
+                                                                                
+                                                                                
+			LINF(L2)-ERROR ON OPTIMAL STATE
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	7.9362194054e-02
+0.0250000000	0.0707106781	2.0367828928e-02	1.9621597041e+00
+0.0062500000	0.0353553391	5.1141785721e-03	1.9937177658e+00
+0.0015625000	0.0176776695	1.2776047847e-03	2.0010609153e+00
+                                                                                
+                                                                                
+			LINF(L2)-ERROR ON OPTIMAL ADJOINT
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	7.9362174851e-02
+0.0250000000	0.0707106781	2.0367724755e-02	1.9621667338e+00
+0.0062500000	0.0353553391	5.0900992939e-03	2.0005191235e+00
+0.0015625000	0.0176776695	1.2688007826e-03	2.0042282336e+00
+                                                                                
+                                                                                
+			LINF(L2)-ERROR ON OPTIMAL CONTROL
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	5.7775294866e-01
+0.0250000000	0.0707106781	1.6617469852e-01	1.7977519813e+00
+0.0062500000	0.0353553391	4.5755600851e-02	1.8606804798e+00
+0.0015625000	0.0176776695	1.2017573550e-02	1.9288027185e+00
+                                                                                
+
+End of Run: 2020-07-06 14:44:31
+
+********************************************************************************
+
+********************************************************************************
+
+Start of Run: 2020-07-06 14:44:31
+
+PYTHON VERSION: 3.7.6 (default, Jan  8 2020, 13:42:34) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] 
+PLATFORM: Darwin-18.6.0-x86_64-i386-64bit 
+PROCESSOR: i386
+VERSION: Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; 
+root:xnu-4903.261.4~2/RELEASE_X86_64 
+MAC VERSION: ('10.14.5', ('', '', ''), 'x86_64')
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 1.00
+Nt		 Number of time steps 			 11
+dt		 Temporal grid size 			 0.1
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-01
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 1.00e+00
+ocptol		 OCP tolerance 				 1.00e-06
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	TAYLOR_HOOD
+
+MESH DATA STRUCTURE
+	Number of Nodes: 121
+	Number of Cells: 200
+	Number of Edges: 320
+	Number of Boundary Nodes: 40
+	Mesh Size: 0.141421
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (882, 882)
+	Density: 0.071634
+	Number of Nonzero Entries: 55726
+	Elapsed time for matrix assembly:  5.509901e-02 seconds
+	Elapsed time for LU factorization: 6.463051e-03 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-06
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	1.97764158e-01 seconds
+	Adjoint solver elapsed time:	5.09255171e-01 seconds
+
+Iteration: 1
+	State solver elapsed time:	1.95874691e-01 seconds
+
+	Cost Value = 3.58980371e+01	Relative Error = 3.09737347e-02
+	Steplength = 1.00000000e+00	Optimality Res = 9.78454191e-01
+
+Iteration: 2
+	Adjoint solver elapsed time:	5.43375254e-01 seconds
+	State solver elapsed time:	2.16178894e-01 seconds
+
+	Cost Value = 3.20244401e+01	Relative Error = 1.20957525e-01
+	Steplength = 8.43509180e+00	Optimality Res = 1.49964584e-01
+
+Iteration: 3
+	Adjoint solver elapsed time:	4.94330883e-01 seconds
+	State solver elapsed time:	2.13509798e-01 seconds
+
+	Cost Value = 3.20240532e+01	Relative Error = 1.20817710e-05
+	Steplength = 8.43528792e+00	Optimality Res = 1.45061822e-03
+
+Iteration: 4
+	Adjoint solver elapsed time:	4.90671158e-01 seconds
+	State solver elapsed time:	1.93025112e-01 seconds
+
+	Cost Value = 3.20240508e+01	Relative Error = 7.67024504e-08
+	Steplength = 8.81681841e+00	Optimality Res = 6.52730080e-05
+
+Iteration: 5
+	Adjoint solver elapsed time:	4.79242802e-01 seconds
+	State solver elapsed time:	1.96839333e-01 seconds
+
+	Cost Value = 3.20240506e+01	Relative Error = 3.33396801e-09
+	Steplength = 9.31822608e+00	Optimality Res = 2.47263052e-06
+
+Iteration: 6
+	Adjoint solver elapsed time:	5.45386314e-01 seconds
+	State solver elapsed time:	2.40381241e-01 seconds
+
+	Cost Value = 3.20240506e+01	Relative Error = 1.20524711e-10
+	Steplength = 9.58491417e+00	Optimality Res = 5.02610255e-08
+
+Optimal solution found.
+	Elapsed time is 4.52384400 seconds.
+                                                                                
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 1.00
+Nt		 Number of time steps 			 41
+dt		 Temporal grid size 			 0.025
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-01
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 1.00e+00
+ocptol		 OCP tolerance 				 1.00e-06
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	TAYLOR_HOOD
+
+MESH DATA STRUCTURE
+	Number of Nodes: 441
+	Number of Cells: 800
+	Number of Edges: 1240
+	Number of Boundary Nodes: 80
+	Mesh Size: 0.070711
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (3362, 3362)
+	Density: 0.023135
+	Number of Nonzero Entries: 261496
+	Elapsed time for matrix assembly:  7.778883e-02 seconds
+	Elapsed time for LU factorization: 1.196961e-01 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-06
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	1.22655797e+00 seconds
+	Adjoint solver elapsed time:	3.73919201e+00 seconds
+
+Iteration: 1
+	State solver elapsed time:	1.17298675e+00 seconds
+
+	Cost Value = 3.34461188e+01	Relative Error = 3.42890063e-02
+	Steplength = 1.00000000e+00	Optimality Res = 9.93784064e-01
+
+Iteration: 2
+	Adjoint solver elapsed time:	3.47942662e+00 seconds
+	State solver elapsed time:	1.31194305e+00 seconds
+
+	Cost Value = 2.94617046e+01	Relative Error = 1.35240449e-01
+	Steplength = 8.41549793e+00	Optimality Res = 1.54174180e-01
+
+Iteration: 3
+	Adjoint solver elapsed time:	3.66125107e+00 seconds
+	State solver elapsed time:	1.29776192e+00 seconds
+
+	Cost Value = 2.94610848e+01	Relative Error = 2.10397607e-05
+	Steplength = 8.41579310e+00	Optimality Res = 1.85105876e-03
+
+Iteration: 4
+	Adjoint solver elapsed time:	4.00031900e+00 seconds
+	State solver elapsed time:	1.27121401e+00 seconds
+
+	Cost Value = 2.94610800e+01	Relative Error = 1.62725376e-07
+	Steplength = 9.03972882e+00	Optimality Res = 9.01062925e-05
+
+Iteration: 5
+	Adjoint solver elapsed time:	3.44385409e+00 seconds
+	State solver elapsed time:	1.19750690e+00 seconds
+
+	Cost Value = 2.94610799e+01	Relative Error = 1.93067270e-09
+	Steplength = 9.34680463e+00	Optimality Res = 2.62435305e-06
+
+Iteration: 6
+	Adjoint solver elapsed time:	3.85835290e+00 seconds
+	State solver elapsed time:	1.31262684e+00 seconds
+
+	Cost Value = 2.94610799e+01	Relative Error = 6.19873958e-11
+	Steplength = 9.52600888e+00	Optimality Res = 5.57703988e-08
+
+Optimal solution found.
+	Elapsed time is 31.02256083 seconds.
+                                                                                
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 1.00
+Nt		 Number of time steps 			 161
+dt		 Temporal grid size 			 0.00625
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-01
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 1.00e+00
+ocptol		 OCP tolerance 				 1.00e-06
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	TAYLOR_HOOD
+
+MESH DATA STRUCTURE
+	Number of Nodes: 1681
+	Number of Cells: 3200
+	Number of Edges: 4880
+	Number of Boundary Nodes: 160
+	Mesh Size: 0.035355
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (13122, 13122)
+	Density: 0.006540
+	Number of Nonzero Entries: 1126096
+	Elapsed time for matrix assembly:  1.428869e-01 seconds
+	Elapsed time for LU factorization: 5.806789e-01 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-06
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	1.01611881e+01 seconds
+	Adjoint solver elapsed time:	3.10958881e+01 seconds
+
+Iteration: 1
+	State solver elapsed time:	9.93772697e+00 seconds
+
+	Cost Value = 3.28529633e+01	Relative Error = 3.53084494e-02
+	Steplength = 1.00000000e+00	Optimality Res = 9.99498618e-01
+
+Iteration: 2
+	Adjoint solver elapsed time:	2.79987521e+01 seconds
+	State solver elapsed time:	9.85008168e+00 seconds
+
+	Cost Value = 2.88276899e+01	Relative Error = 1.39632185e-01
+	Steplength = 8.40699901e+00	Optimality Res = 1.55871469e-01
+
+Iteration: 3
+	Adjoint solver elapsed time:	2.84355111e+01 seconds
+	State solver elapsed time:	1.00233238e+01 seconds
+
+	Cost Value = 2.88270027e+01	Relative Error = 2.38411961e-05
+	Steplength = 8.40731646e+00	Optimality Res = 1.95181838e-03
+
+Iteration: 4
+	Adjoint solver elapsed time:	3.10753660e+01 seconds
+	State solver elapsed time:	9.81621099e+00 seconds
+
+	Cost Value = 2.88269961e+01	Relative Error = 2.28651718e-07
+	Steplength = 9.14409435e+00	Optimality Res = 9.66465369e-05
+
+Iteration: 5
+	Adjoint solver elapsed time:	2.81173832e+01 seconds
+	State solver elapsed time:	9.95944977e+00 seconds
+
+	Cost Value = 2.88269960e+01	Relative Error = 1.60933121e-09
+	Steplength = 9.46285356e+00	Optimality Res = 2.73243948e-06
+
+Iteration: 6
+	Adjoint solver elapsed time:	2.81881170e+01 seconds
+	State solver elapsed time:	9.73761725e+00 seconds
+
+	Cost Value = 2.88269960e+01	Relative Error = 3.02077450e-11
+	Steplength = 9.65637934e+00	Optimality Res = 5.76418038e-08
+
+Optimal solution found.
+	Elapsed time is 245.29856420 seconds.
+                                                                                
+
+				PARAMETERS
+                                                                                
+Attribute	 Description 				 Value
+                                                                                
+T		 Time Horizon 				 1.00
+nu		 Viscosity 				 1.00
+Nt		 Number of time steps 			 641
+dt		 Temporal grid size 			 0.0015625
+tau		 Delay 					 0.50
+pen		 Artificial compressibility 		 1.00e-10
+alpha		 Tikhonov regularization 		 1.00e-01
+alpha_O		 Velocity tracking coefficient 		 1.00e+00
+alpha_T		 Final tracking coefficient 		 1.00e+00
+alpha_X		 Vorticity tracking coefficient		 1.00e+00
+ocptol		 OCP tolerance 				 1.00e-06
+ocpmaxit	 OCP maximum number of iterations 	 1000
+                                                                                
+
+FINITE ELEMENT METHOD
+	TAYLOR_HOOD
+
+MESH DATA STRUCTURE
+	Number of Nodes: 6561
+	Number of Cells: 12800
+	Number of Edges: 19360
+	Number of Boundary Nodes: 320
+	Mesh Size: 0.017678
+
+SYSTEM MATRIX PROPERTIES
+	Shape: (51842, 51842)
+	Density: 0.001742
+	Number of Nonzero Entries: 4682494
+	Elapsed time for matrix assembly:  5.893729e-01 seconds
+	Elapsed time for LU factorization: 1.504772e+01 seconds
+                                                                                
+BARZILAI-BORWEIN GRADIENT METHOD			Tolerance = 1.0e-06
+                                                                                
+
+Iteration: 0
+	State solver elapsed time:	2.30621507e+02 seconds
+	Adjoint solver elapsed time:	5.45069684e+02 seconds
+
+Iteration: 1
+	State solver elapsed time:	2.35635497e+02 seconds
+
+	Cost Value = 3.27094707e+01	Relative Error = 3.55909866e-02
+	Steplength = 1.00000000e+00	Optimality Res = 1.00130622e+00
+
+Iteration: 2
+	Adjoint solver elapsed time:	5.60672936e+02 seconds
+	State solver elapsed time:	2.21400207e+02 seconds
+
+	Cost Value = 2.86713111e+01	Relative Error = 1.40843213e-01
+	Steplength = 8.40424937e+00	Optimality Res = 1.56415962e-01
+
+Iteration: 3
+	Adjoint solver elapsed time:	5.41414898e+02 seconds
+	State solver elapsed time:	2.23612286e+02 seconds
+
+	Cost Value = 2.86706255e+01	Relative Error = 2.39138602e-05
+	Steplength = 8.40456375e+00	Optimality Res = 1.95138110e-03
+
+Iteration: 4
+	Adjoint solver elapsed time:	5.39030798e+02 seconds
+	State solver elapsed time:	2.16270553e+02 seconds
+
+	Cost Value = 2.86706187e+01	Relative Error = 2.38654597e-07
+	Steplength = 9.16396838e+00	Optimality Res = 9.64990700e-05
+
+Iteration: 5
+	Adjoint solver elapsed time:	5.59413261e+02 seconds
+	State solver elapsed time:	1.88197394e+02 seconds
+
+	Cost Value = 2.86706186e+01	Relative Error = 1.52351710e-09
+	Steplength = 9.48229946e+00	Optimality Res = 2.70701073e-06
+
+Iteration: 6
+	Adjoint solver elapsed time:	4.77069663e+02 seconds
+	State solver elapsed time:	1.87557737e+02 seconds
+
+	Cost Value = 2.86706186e+01	Relative Error = 2.50149264e-11
+	Steplength = 9.68076999e+00	Optimality Res = 5.68538200e-08
+
+Optimal solution found.
+	Elapsed time is 4759.32823920 seconds.
+                                                                                
+
+                                                                                
+			L2-ERROR ON OPTIMAL STATE
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	7.1633213326e-03
+0.0250000000	0.0707106781	1.6980092076e-03	2.0767843779e+00
+0.0062500000	0.0353553391	4.1880713325e-04	2.0194863620e+00
+0.0015625000	0.0176776695	1.0437778315e-04	2.0044713486e+00
+                                                                                
+                                                                                
+			L2-ERROR ON OPTIMAL ADJOINT
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	7.9335757363e-03
+0.0250000000	0.0707106781	1.7792008535e-03	2.1567418633e+00
+0.0062500000	0.0353553391	4.3267749845e-04	2.0398653853e+00
+0.0015625000	0.0176776695	1.0744472469e-04	2.0096974436e+00
+                                                                                
+                                                                                
+			L2-ERROR ON OPTIMAL CONTROL
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	7.2316243266e-02
+0.0250000000	0.0707106781	1.7359025004e-02	2.0586338147e+00
+0.0062500000	0.0353553391	4.3000218132e-03	2.0132700355e+00
+0.0015625000	0.0176776695	1.0728507027e-03	2.0028946529e+00
+                                                                                
+                                                                                
+			L2(H1)-ERROR ON OPTIMAL STATE
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	5.9322067107e-02
+0.0250000000	0.0707106781	1.3072253686e-02	2.1820609836e+00
+0.0062500000	0.0353553391	3.1300271145e-03	2.0622608265e+00
+0.0015625000	0.0176776695	7.7336191651e-04	2.0169595277e+00
+                                                                                
+                                                                                
+			L2(H1)-ERROR ON OPTIMAL ADJOINT
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	6.1483100960e-02
+0.0250000000	0.0707106781	1.3340162414e-02	2.2044136995e+00
+0.0062500000	0.0353553391	3.2087558868e-03	2.0556902884e+00
+0.0015625000	0.0176776695	7.9442288177e-04	2.0140349550e+00
+                                                                                
+                                                                                
+			L2(H1)-ERROR ON OPTIMAL CONTROL
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	5.5297137433e-01
+0.0250000000	0.0707106781	1.2998081649e-01	2.0889060828e+00
+0.0062500000	0.0353553391	3.1885261401e-02	2.0273371017e+00
+0.0015625000	0.0176776695	7.9322797101e-03	2.0070822524e+00
+                                                                                
+                                                                                
+			LINF(L2)-ERROR ON OPTIMAL STATE
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	1.0317636707e-02
+0.0250000000	0.0707106781	2.4677462172e-03	2.0638466133e+00
+0.0062500000	0.0353553391	6.0887740478e-04	2.0189703543e+00
+0.0015625000	0.0176776695	1.5172789632e-04	2.0046654157e+00
+                                                                                
+                                                                                
+			LINF(L2)-ERROR ON OPTIMAL ADJOINT
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	1.0457684662e-02
+0.0250000000	0.0707106781	2.4937811754e-03	2.0681566913e+00
+0.0062500000	0.0353553391	6.1491934491e-04	2.0198657781e+00
+0.0015625000	0.0176776695	1.5310638261e-04	2.0058627673e+00
+                                                                                
+                                                                                
+			LINF(L2)-ERROR ON OPTIMAL CONTROL
+
+Time Stepsize	Mesh Size	Error		Order of Convergence
+                                                                                
+0.1000000000	0.1414213562	1.0457692122e-01
+0.0250000000	0.0707106781	2.4938520766e-02	2.0681167035e+00
+0.0062500000	0.0353553391	6.1485278703e-03	2.0200629586e+00
+0.0015625000	0.0176776695	1.5310073024e-03	2.0057598662e+00
+                                                                                
+
+End of Run: 2020-07-06 16:19:22
+
+********************************************************************************
