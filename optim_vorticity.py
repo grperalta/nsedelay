@@ -38,7 +38,7 @@ __date__ = "7 January 2021"
 
 def check_dir():
     """
-    Check if there is a directory 'npyfiles_velocity', otherwise, create one.
+    Check if there is a directory 'npyfiles_vorticity', otherwise, create one.
     """
     if os.path.isdir('npyfiles_vorticity'):
         pass
