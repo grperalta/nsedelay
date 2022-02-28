@@ -109,9 +109,7 @@ File for the initial data.
 You may view this Markdown file better at https://stackedit.io/editor
 
 If you find these codes useful, you can cite the manuscript as:
-*G. Peralta and J. S. Simon, Optimal Control for the Navier-Stokes
-Equation with Time Delay in the Convection: Analysis and Finite Element
-Approximations, to appear in Journal of Mathematical Fluid Mechanics.*
+> G. Peralta and J. S. Simon, [Optimal control for the Navier–Stokes with time delay in the convection: analysis and finite element approximations](https://link.springer.com/article/10.1007/s00021-021-00577-z), Journal of Mathematical Fluid Mechanics 23, 56, pp. 1-49, 2021. 
 
 Gilbert Peralta
 Department of Mathematics and Computer Science
